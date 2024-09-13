@@ -1,0 +1,20 @@
+{
+  "row": [
+    {
+      "ID": "brandy_wc_widget_1",
+      "title": "Brandy WC Demo Widget 1"
+    },
+    {
+      "ID": "brandy_wc_widget_2",
+      "title": "Brandy WC Demo Widget 2"
+    },
+    {
+      "ID": "brandy_wc_widget_3",
+      "title": "Brandy WC Demo Widget 3"
+    },
+    {
+      "ID": "brandy_wc_widget_4",
+      "title": "Brandy WC Demo Widget 4"
+    }
+  ]
+}

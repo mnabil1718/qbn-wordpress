@@ -1,0 +1,13 @@
+.wp-block-post-comments-form .comment-reply-title {
+  margin-bottom: 10px;
+}
+.wp-block-post-comments-form form > * {
+  margin-block-end: 10px;
+}
+.wp-block-post-comments-form .comment-form-comment label {
+  display: inline-block;
+  margin-bottom: 4px;
+}
+.wp-block-post-comments-form .form-submit {
+  margin-top: 20px;
+}

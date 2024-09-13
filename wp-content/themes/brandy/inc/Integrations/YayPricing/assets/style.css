@@ -1,0 +1,36 @@
+/* Discounted price */
+
+.yaydp-discounted-price {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.yaydp-discounted-price * {
+  line-height: normal;
+}
+
+/* Cart item price */
+.yaydp-cart-item-price {
+  justify-content: flex-start;
+}
+.yaydp-cart-item-price > div > .price {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.yaydp-cart-item-price > div > .price > span:last-child {
+  text-align: left;
+}
+
+.yaydp-cart-item-price > div > .price > del {
+  margin-right: 10px;
+}
+
+.yaydp-cart-item-price {
+  gap: 20px;
+}
+
+/* Notice */
+.yaydp-notice * {
+  line-height: normal;
+}

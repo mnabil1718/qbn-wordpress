@@ -1,0 +1,64 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "title": "WooCommerce styles",
+  "description": "WooCommerce site",
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "palette": [
+        {
+          "color": "#2F70B3",
+          "slug": "brandy-accent",
+          "name": "Brandy accent"
+        },
+        {
+          "color": "#272829",
+          "slug": "brandy-primary-text",
+          "name": "Brandy primary text"
+        },
+        {
+          "color": "#5A6D80",
+          "slug": "brandy-secondary-text",
+          "name": "Brandy secondary text"
+        },
+        {
+          "color": "#edf3f9",
+          "slug": "brandy-border",
+          "name": "Brandy border"
+        },
+        {
+          "color": "#ffffff",
+          "slug": "brandy-theme-background",
+          "name": "Brandy theme background"
+        },
+        {
+          "color": "#122941",
+          "slug": "brandy-primary-black",
+          "name": "Brandy primary black"
+        }
+      ],
+      "custom": true,
+      "customDuotone": true,
+      "customGradient": true,
+      "duotone": [
+        {
+          "colors": ["#ffffff", "#111D27"],
+          "slug": "brandy-white-and-black",
+          "name": "Brandy white and black"
+        },
+        {
+          "colors": ["#111D27", "#ffffff"],
+          "slug": "brandy-black-and-white",
+          "name": "Brandy black and white"
+        }
+      ],
+      "gradients": [],
+      "link": true,
+      "text": true,
+      "background": true,
+      "defaultGradients": true,
+      "defaultPalette": true
+    }
+  }
+}

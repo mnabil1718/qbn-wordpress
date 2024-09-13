@@ -1,0 +1,6 @@
+.wp-block-table table thead,
+.wp-block-table table tfoot,
+.wp-block-table table td,
+.wp-block-table table th {
+  border-color: var(--wp--preset--color--brandy-border);
+}

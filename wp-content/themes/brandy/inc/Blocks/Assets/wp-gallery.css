@@ -1,0 +1,17 @@
+.wp-block-gallery .wp-block-image {
+  background-color: #f7f7fa;
+}
+.wp-block-gallery.has-nested-images figure.wp-block-image figcaption {
+  background: white;
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  height: fit-content;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: var(--wp--preset--color--brandy-primary-text);
+  font-size: 12px;
+  max-width: 90%;
+  padding: 8px 12px;
+  margin: 0;
+}

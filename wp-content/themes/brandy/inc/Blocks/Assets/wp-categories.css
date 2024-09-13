@@ -1,0 +1,42 @@
+:root {
+  --wp-block-cat-item-background-color: rgb(250 251 252);
+  --wp-block-cat-item-background-color-hover: rgb(244 247 250);
+  --wp-block-cat-item-background-color-active: rgb(235, 241, 247);
+}
+.wp-block-categories-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-height: 600px;
+  overflow: auto;
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+.wp-block-categories-list::-webkit-scrollbar {
+  display: none;
+}
+.wp-block-categories-list .cat-item {
+  border-radius: 10px;
+  background-color: var(--wp-block-cat-item-background-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: all ease-in-out 0.2s;
+  padding-right: 15px;
+}
+.wp-block-categories-list .cat-item > * {
+  color: var(--wp--preset--color--brandy-primary-text);
+  padding: 10px 15px;
+  flex: 1;
+}
+.wp-block-categories-list .cat-item:hover {
+  color: inherit;
+  background-color: var(--wp-block-cat-item-background-color-hover) !important;
+}
+.wp-block-categories-list .cat-item.active-category {
+  background-color: var(--wp-block-cat-item-background-color-active);
+}

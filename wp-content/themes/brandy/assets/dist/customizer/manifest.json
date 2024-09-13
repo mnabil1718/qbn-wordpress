@@ -1,0 +1,20 @@
+{
+  "src/index.scss": {
+    "file": "index-2c882781.css",
+    "isEntry": true,
+    "src": "src/index.scss"
+  },
+  "src/main.css": {
+    "file": "main-a2a325c2.css",
+    "src": "src/main.css"
+  },
+  "src/main.tsx": {
+    "css": [
+      "main-a2a325c2.css",
+      "index-2c882781.css"
+    ],
+    "file": "main-67e4505b.js",
+    "isEntry": true,
+    "src": "src/main.tsx"
+  }
+}

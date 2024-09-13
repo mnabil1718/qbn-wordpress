@@ -1,0 +1,7 @@
+.wp-block-calendar .wp-calendar-table caption {
+  font-weight: 500;
+  padding: 10px;
+}
+.wp-block-calendar .wp-calendar-table td {
+  border-color: var(--wp--preset--color--brandy-border);
+}

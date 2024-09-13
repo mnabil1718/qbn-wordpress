@@ -1,0 +1,88 @@
+body {
+  --brandy-outline-text-inside-color: #f8f9f9;
+  --brandy-scrolling-banner-duration: 60s;
+
+  --theme-product-background-color: transparent;
+  --brandy-product-img-hover-opacity: 1;
+}
+
+.brandy-site-product-template__group {
+  --animation-duration: 0.3s;
+}
+
+.brandy-site-product-template__content-group {
+  position: relative;
+}
+
+.brandy-site-product-template__content-group
+  .brandy-site-product-template__content-group__action:not(
+    .block-editor-block-list__block
+  ) {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0;
+  opacity: 0;
+  visibility: hidden;
+  transition-property: opacity, visibility;
+  transition-duration: var(--animation-duration);
+  transition-timing-function: ease-in-out;
+}
+.brandy-site-product-template__content-group__product-info {
+  visibility: visible;
+  opacity: 1;
+  transition-property: opacity, visibility;
+  transition-timing-function: ease-in-out;
+  transition-duration: var(--animation-duration);
+}
+.brandy-site-product-template__content-group__action {
+  width: 100%;
+}
+
+.brandy-site-product-template__group
+  .brandy-site-product-template__thumbnail-group {
+  overflow: hidden;
+}
+
+.brandy-site-product-template__group
+  .brandy-site-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  aspect-ratio: 1;
+  transition: scale ease-in-out var(--animation-duration);
+}
+
+.brandy-site-product-template__group:hover
+  .brandy-site-product-template__content-group__product-info:not(.block-editor-block-list__block) {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.brandy-site-product-template__group:hover
+  .brandy-site-product-template__content-group__action {
+  visibility: visible;
+  opacity: 1;
+}
+
+.brandy-site-product-template__group:hover
+  .brandy-site-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-image"]
+  img {
+  scale: 1.1;
+}
+
+.wc-block-components-order-summary-item__image,
+.wc-block-cart-item__image,
+.item-thumbnail {
+  --theme-product-background-color: #4f7e6d33;
+}
+
+.wc-block-components-totals-coupon__button {
+  --secondary-button-hover-background-color: var(
+    --wp--preset--color--brandy-accent
+  );
+  --secondary-button-hover-border-color: var(
+    --wp--preset--color--brandy-accent
+  );
+  --secondary-button-hover-color: #ffffff;
+}

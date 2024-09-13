@@ -1,0 +1,232 @@
+body {
+  --brandy-halloween-product-transition-duration: 0.5s;
+  --brandy-halloween-scrolling-banner-duration: 30s;
+  --theme-product-background-color: transparent;
+  --brandy-product-img-hover-opacity: 1;
+  --brandy-product-img-hover-filter: brightness(0.6);
+  --brandy-outline-text-inside-color: #3a261c;
+  --brandy-outline-text-wrap-color: var(--wp--preset--color--brandy-accent);
+
+  --theme-tooltip-background-color: #ffffff;
+  --theme-tooltip-color: #122940;
+  --theme-highlight-section-brightness: 60%;
+
+  --brandy-card-shadow: 0 0 #e9e9e9, 0 0 #e9e9e9, 0 1px 3px #e9e9e942;
+  --brandy-card-shadow-hover: 0 0 #e9e9e9, 0 0 #e9e9e9, 0 9px 40px #e9e9e942;
+
+  --brandy-live-result-suggestion-item-background-hover: var(
+    --wp--preset--color--brandy-theme-background
+  );
+  --brandy-live-result-suggestion-item-border-hover: #ffffff;
+  --brandy-live-result-suggestion-item-shadow-hover: 0 0 #ffff, 0 0 #ffff,
+    0 5px 15px rgba(255, 255, 255, 0.07);
+  --brandy-live-result-suggestion-item-color: #272829;
+  --brandy-live-result-suggestion-item-color-hover: #ffffff;
+
+  --brandy-product-rating-star-color-active: #e26b0f;
+  --brandy-product-rating-star-color-half: #e26b0f;
+}
+
+.wc-block-components-order-summary-item__image,
+.wc-block-cart-item__image,
+.item-thumbnail {
+  --theme-product-background-color: #f8fafceb;
+}
+
+/** Scrolling banner **/
+.brandy-scrolling-banner {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+}
+
+.brandy-scrolling-banner__content {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.brandy-scrolling-banner.scroll-to-left .brandy-scrolling-banner__content {
+  padding-left: 5%;
+  animation: scroll-left var(--brandy-halloween-scrolling-banner-duration)
+    linear infinite;
+}
+.brandy-scrolling-banner.scroll-to-right .brandy-scrolling-banner__content {
+  padding-right: 5%;
+  animation: scroll-right var(--brandy-halloween-scrolling-banner-duration)
+    linear infinite;
+}
+
+.brandy-scrolling-banner__content .wp-block-image img {
+  max-width: unset;
+}
+
+@keyframes scroll-left {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.block-editor-iframe__body .brandy-scrolling-banner__content {
+  padding-left: 0 !important;
+  animation: none !important;
+}
+
+/** Product template */
+
+.brandy-halloween-product-group {
+  position: relative !important;
+}
+.brandy-halloween-product-group [data-block-name="woocommerce/product-image"] {
+  transition: filter 0.3s ease-in-out;
+}
+.brandy-halloween-product-group:hover
+  [data-block-name="woocommerce/product-image"] {
+  filter: brightness(0.8);
+}
+
+.brandy-halloween-product-content-group {
+  position: absolute !important;
+  width: calc(100% - 80px);
+  bottom: 20px;
+  left: 20px;
+}
+
+.brandy-halloween-product-group [data-block-name="woocommerce/product-button"],
+.brandy-halloween-product-group [data-type="woocommerce/product-button"] {
+  position: absolute !important;
+  bottom: 20px;
+  right: 20px;
+}
+
+.brandy-halloween-product-group
+  [data-block-name="woocommerce/product-button"]
+  button,
+.brandy-halloween-product-group
+  [data-type="woocommerce/product-button"]
+  button {
+  width: 44px !important;
+  height: 44px !important;
+  overflow: visible !important;
+  padding: 0px !important;
+  position: relative !important;
+  transition: all ease-in-out 0.3s;
+}
+
+.brandy-halloween-product-group
+  [data-block-name="woocommerce/product-button"]
+  button::before,
+.brandy-halloween-product-group
+  [data-type="woocommerce/product-button"]
+  button::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 15px;
+  height: 15px;
+  filter: brightness(0);
+}
+
+.brandy-halloween-product-group
+  [data-block-name="woocommerce/product-button"]
+  button.loading::before,
+.brandy-halloween-product-group
+  [data-type="woocommerce/product-button"]
+  button.loading::before {
+  display: none;
+}
+
+.brandy-halloween-product-group
+  [data-block-name="woocommerce/product-button"]
+  button.loading::after,
+.brandy-halloween-product-group
+  [data-type="woocommerce/product-button"]
+  button.loading::after {
+  margin: 0 !important;
+}
+
+.brandy-halloween-product-group
+  [data-block-name="woocommerce/product-button"]:hover
+  button,
+.brandy-halloween-product-group
+  [data-type="woocommerce/product-button"]:hover
+  button {
+  background-color: var(--wp--preset--color--brandy-accent) !important;
+}
+
+.brandy-halloween-product-group
+  [data-block-name="woocommerce/product-button"]:hover
+  button::before,
+.brandy-halloween-product-group
+  [data-type="woocommerce/product-button"]:hover
+  button::before {
+  filter: none;
+}
+
+.brandy-halloween-product-group
+  [data-block-name="woocommerce/product-button"]:hover
+  button
+  [data-wc-text],
+.brandy-halloween-product-group
+  [data-type="woocommerce/product-button"]:hover
+  button
+  [data-wc-text] {
+  background-color: var(--wp--preset--color--brandy-accent);
+  color: #e0e3ec;
+}
+
+.brandy-halloween-product-group
+  [data-block-name="woocommerce/product-button"]
+  button
+  * {
+  visibility: hidden;
+  opacity: 0;
+  transition: all ease-in-out 0.3s;
+}
+
+.brandy-halloween-product-group
+  [data-block-name="woocommerce/product-button"]
+  [data-wc-text] {
+  position: absolute;
+  right: calc(100% + 5px);
+  background-color: #e0e3ec;
+  color: #111112;
+  padding: 5px 10px;
+  border-radius: 3px;
+  width: max-content;
+  z-index: 2;
+  font-size: 12px;
+}
+
+.brandy-halloween-product-group
+  [data-block-name="woocommerce/product-button"]:hover
+  [data-wc-text] {
+  visibility: visible;
+  opacity: 1;
+}
+
+/** --Editor-- */
+.brandy-halloween-product-group
+  [data-type="woocommerce/product-button"]
+  button {
+  text-indent: 100% !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+}

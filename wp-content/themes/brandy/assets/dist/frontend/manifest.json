@@ -1,0 +1,18 @@
+{
+  "src/main.js": {
+    "file": "main-4acd29b1.js",
+    "imports": [
+      "src/main.min.css"
+    ],
+    "isEntry": true,
+    "src": "src/main.js"
+  },
+  "src/main.min.css": {
+    "css": [
+      "main.min-1a5f0520.css"
+    ],
+    "file": "main.min-46ef4bcc.js",
+    "isEntry": true,
+    "src": "src/main.min.css"
+  }
+}

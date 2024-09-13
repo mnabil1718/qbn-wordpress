@@ -1,0 +1,107 @@
+.brandy-product-categories-list
+  .wc-block-product-categories-list-item__wrap-link {
+  position: relative;
+  display: block;
+}
+
+.brandy-product-categories-list
+  .wc-block-product-categories-list-item__wrap-link
+  img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: all ease-in-out 0.4s;
+  border-radius: 20px;
+}
+
+.brandy-product-categories-list
+  .wc-block-product-categories-list-item__wrap-link:hover
+  img {
+  transform: scale(1.1);
+}
+
+.brandy-product-categories-list
+  .wc-block-product-categories-list-item__wrap-link:hover
+  .wc-block-product-categories-list-item__name {
+  color: var(--wp--preset--color--brandy-accent);
+  text-decoration: underline;
+}
+
+.brandy-product-categories-list .wc-block-product-categories-list-item__image {
+  border-radius: 20px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 12px;
+}
+.brandy-product-categories-list
+  .wc-block-product-categories-list-item__content {
+  text-align: center;
+  color: var(--wp--preset--color--brandy-primary-text);
+  font-size: 1rem;
+  padding-bottom: 10px;
+}
+
+.wc-block-product-categories-list-item__name {
+  transition-property: all;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  font-weight: 500;
+}
+
+.brandy-product-categories-list-item-count {
+  font-size: 14px;
+  color: var(--wp--preset--color--brandy-secondary-text);
+}
+
+.brandy-product-categories-list .wc-block-product-categories-navigation {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+.brandy-product-categories-list .wc-block-product-categories-navigation > span {
+  display: flex;
+  width: 30px;
+  height: 15px;
+  border-radius: 7px;
+  background: #ffffff;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+.brandy-product-categories-list
+  .wc-block-product-categories-navigation
+  > span:hover {
+  background: var(--wp--preset--color--brandy-accent);
+}
+
+.brandy-product-categories-list
+  .wc-block-product-categories-navigation
+  > span.swiper-button-disabled {
+  background: #414141;
+  cursor: default;
+  box-shadow: none;
+  cursor: not-allowed;
+}
+
+/** Editor */
+.block-editor-block-list__block
+  .brandy-product-categories-list
+  .wc-block-product-categories-list {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.block-editor-block-list__block
+  .brandy-product-categories-list
+  .wc-block-product-categories-list
+  > * {
+  max-width: 270px;
+}

@@ -1,0 +1,161 @@
+/** ====== Product template ====== */
+
+.brandy-site-product-template .brandy-site-product-template__thumbnail-group {
+  position: relative;
+}
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wc-block-components-product-button {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  width: 44px;
+  height: 44px;
+}
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-element-button {
+  box-shadow: 0px 5px 35px 0px #1229400d;
+}
+
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-block-woocommerce-product-button
+  > * {
+  position: absolute;
+  right: calc(100% + 5px);
+  top: 50%;
+  transform: translateY(-50%);
+  width: max-content;
+  background: #ffffff;
+  color: #122940;
+  font-size: 14px;
+  box-shadow: 0px 1px 0px 0px #00000012;
+  padding: 5px 8px;
+  border-radius: 2px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+  z-index: 2;
+}
+
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-block-woocommerce-product-button:hover
+  > * {
+  visibility: visible;
+  opacity: 1;
+}
+
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"]:hover
+  button,
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"]:hover
+  button {
+  background-color: #21232a !important;
+}
+
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  [data-block-name="woocommerce/product-button"]:hover
+  button::before,
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  [data-type="woocommerce/product-button"]:hover
+  button::before {
+  filter: brightness(1);
+}
+
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-block-woocommerce-product-button {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: unset;
+}
+
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wp-block-woocommerce-product-button::before {
+  content: "";
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  width: 15px;
+  height: 15px;
+  filter: invert(1);
+}
+
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  [data-wc-bind--hidden] {
+  display: none;
+}
+
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wp-block-button.wc-block-components-product-button
+  .wp-block-button__link.loading::after {
+  margin-left: 0;
+  color: #122940;
+}
+.brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wp-block-button.wc-block-components-product-button
+  .wp-block-button__link.loading::before {
+  display: none;
+}
+
+/** --Editor-- */
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wc-block-components-product-button
+  .wc-block-components-product-button__button {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wp-block-woocommerce-product-button {
+  position: unset;
+}
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-site-product-template__thumbnail-group
+  .wp-block-woocommerce-product-button
+  > .components-disabled {
+  position: unset;
+}
+
+/** ====== Product template end ====== */
+
+/** Single featured product */
+@media screen and (max-width: 600px) {
+  .brandy-jewelry-dark-single-featured-product
+    .wc-block-components-product-image
+    img {
+    height: 100vw !important;
+  }
+}
+/** END ==== */

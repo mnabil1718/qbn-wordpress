@@ -1,0 +1,78 @@
+/** ====== Product template ====== */
+
+.brandy-product-thumbnail-group {
+  position: relative;
+}
+
+.brandy-product-thumbnail-group .wc-block-components-product-button {
+  position: absolute;
+  bottom: 10px;
+  width: calc(100% - 20px);
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  transition-property: visibility, opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.brandy-site-product-template
+  > li
+  .brandy-product-thumbnail-group
+  .wc-block-components-product-image {
+  transition: transform 0.5s ease-in-out;
+}
+.brandy-site-product-template
+  > li
+  .brandy-product-thumbnail-group
+  .wc-block-components-product-image
+  img {
+  opacity: 1 !important;
+}
+
+.brandy-site-product-template
+  > li:hover
+  .brandy-product-thumbnail-group
+  .wc-block-components-product-image {
+  transform: scale(1.05);
+}
+
+.brandy-site-product-template
+  > li:hover
+  .brandy-product-thumbnail-group
+  .wc-block-components-product-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-product-thumbnail-group
+  .wp-block-woocommerce-product-button {
+  position: unset;
+}
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-product-thumbnail-group
+  .wp-block-woocommerce-product-button
+  > .components-disabled {
+  position: unset;
+}
+
+/** Campaign banners */
+
+@media screen and (max-width: 1439px) {
+  .brandy-campaign-banners
+    .wp-block-column:first-child
+    .brandy-campaign-banners__card
+    .brandy-campaign-banners__card__content {
+    max-width: 330px;
+    padding-right: var(--wp--preset--spacing--40);
+  }
+}
+
+.brandy-campaign-banners > .wp-block-columns > .wp-block-column:nth-child(2) {
+  /* min-width: 440px; */
+}

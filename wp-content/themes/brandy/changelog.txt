@@ -1,0 +1,30 @@
+Sep 7, 2024- Version 1.1.5
+- Added: Header item spacing setting
+- Added: Header flex wrap setting
+- Added: Auto open cart drawer settings
+- Added: Scrolling banner pattern
+- Added: Some global css variables
+- Added: Footer split container settings
+- Added: Footer padding settings
+- Added: Socials Item direction setting
+- Updated: Checkout field label styling
+- Fixed: User cannot change admin language
+- Fixed: Import site warning error
+
+Aug 19, 2024 - Version 1.1.4
+- Fixed: Issue with resetting template
+
+Aug 4, 2024 - Version 1.1.3
+- Fixed: Add to cart for variable/grouped product in single product page
+
+Jul 30, 2024 - Version 1.1.2
+- Added: View demo site popup
+- Added: Footer row border radius settings
+- Fixed: Customizer page cannot load
+
+Jul 26, 2024- Version 1.1.1
+- Updated: Template content
+- Updated: Sample patterns
+
+Jul 25, 2024- Version 1.1
+- Initial release

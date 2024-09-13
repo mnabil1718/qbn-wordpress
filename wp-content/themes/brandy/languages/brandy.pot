@@ -1,0 +1,2815 @@
+# Copyright (C) 2024 YayCommerce
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Brandy WooCommerce 0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/brandy\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-02-28T04:33:24+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.9.0\n"
+"X-Domain: brandy\n"
+
+#. Theme Name of the theme
+msgid "Brandy WooCommerce"
+msgstr ""
+
+#. Author of the theme
+msgid "YayCommerce"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://yaycommerce.com/"
+msgstr ""
+
+#: 404.php:23
+msgid "Oops! Page Not Found"
+msgstr ""
+
+#: 404.php:24
+msgid "We apologize, but the page you requested could not be found. Please navigate back to the home page to explore more."
+msgstr ""
+
+#: 404.php:25
+msgid "Go to Homepage"
+msgstr ""
+
+#: comments.php:26
+#: comments.php:30
+msgid "Post comment"
+msgstr ""
+
+#: comments.php:48
+msgid "comments"
+msgstr ""
+
+#: comments.php:48
+msgid "comment"
+msgstr ""
+
+#: comments.php:81
+msgid "No comment yet"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/NicheService.php:357
+#: inc/Customizer/Elements/BaseWidget.php:22
+msgid "Add widgets here:"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:18
+msgid "Create an ecommerce website on WordPress."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:35
+msgid "FileBird - WordPress Media Library Folders & File Manager"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:37
+msgid "Organize WP media library with folders."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:46
+msgid "YayMail - WooCommerce Email Customizer"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:48
+msgid "Customize WooCommerce email templates."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:57
+msgid "YayCurrency - WooCommerce Multi-Currency Switcher"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:59
+msgid "Add currency switcher with flags."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:68
+msgid "YayPricing - WooCommerce Dynamic Pricing & Discounts"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:70
+msgid "Setup dynamic pricing & cart discounts."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:79
+msgid "YaySwatches - Variation Swatches for WooCommerce"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:81
+msgid "Display swatches on product page & shop page."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:90
+msgid "YayExtra - WooCommerce Extra Product Options"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:92
+msgid "Add extra product options with custom fees."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:101
+msgid "YaySMTP - Simple WP SMTP Mail"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:103
+msgid "Send WordPress emails successfully ."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:114
+msgid "Connect with customers on the go."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:123
+msgid "Filester - File Manager Pro"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:125
+msgid "Manage WordPress files and configuration."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:134
+msgid "Multi Step for Contact Form 7"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:136
+msgid "Add multi-step to contact form 7."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:145
+msgid "Database for Contact Form 7"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:147
+msgid "Save contact form 7 fields to database."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:156
+msgid "WP Duplicate Page"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:158
+msgid "Duplicate page, post & custom post types."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:167
+msgid "Notibar - Notification Bar for WordPress"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:169
+msgid "Add top banner & announcement bar."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:178
+msgid "FastDup – Fastest WordPress Migration & Duplicator"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:180
+msgid "Backup and migrate your WordPress sites."
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:290
+#: inc/Admin/Pages/Dashboard/PluginService.php:296
+msgid "Install failed"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/PluginService.php:323
+msgid "Activate failed"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:74
+msgid "Brandy dashboard"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:190
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:235
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:272
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:309
+#: inc/Integrations/Elementor/ElementorIntegration.php:70
+msgid "Invalid nonce"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:196
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:204
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:241
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:278
+msgid "Invalid data"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:213
+msgid "Import successfully"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:250
+msgid "Install successfully"
+msgstr ""
+
+#: inc/Admin/Pages/Dashboard/ThemeDashboard.php:286
+msgid "Activate successfully"
+msgstr ""
+
+#: inc/Core/ThemeSetup.php:45
+msgid "Primary Menu"
+msgstr ""
+
+#: inc/Core/ThemeSetup.php:46
+msgid "Secondary Menu"
+msgstr ""
+
+#: inc/Core/ThemeSetup.php:52
+msgid "Header Menu 1"
+msgstr ""
+
+#: inc/Core/ThemeSetup.php:53
+msgid "Header Menu 2"
+msgstr ""
+
+#: inc/Core/ThemeSetup.php:59
+msgid "Footer Menu 1"
+msgstr ""
+
+#: inc/Core/ThemeSetup.php:60
+msgid "Footer Menu 2"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:54
+msgid "Account"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:69
+#: inc/Customizer/Elements/Account.php:428
+msgid "Profile type"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:95
+#: inc/Customizer/Elements/Account.php:450
+#: inc/Customizer/Elements/Search.php:73
+#: inc/Customizer/Elements/Wishlist.php:36
+msgid "Select icon"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:113
+#: inc/Customizer/Elements/Account.php:468
+#: inc/Customizer/Elements/Cart.php:64
+#: inc/Customizer/Elements/Wishlist.php:48
+msgid "Icon style"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:141
+#: inc/Customizer/Elements/Account.php:360
+msgid "Click action"
+msgstr ""
+
+#. Translators: %s Link to menu.
+#: inc/Customizer/Elements/Account.php:145
+msgid "If you want to choose menu, configure menu from <a target=\"_blank\" class=\"text-wp\" href=\"%s\">here</a>"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:174
+#: inc/Customizer/Elements/Account.php:381
+msgid "Custom link"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:199
+#: inc/Customizer/Elements/Account.php:705
+#: inc/Customizer/Elements/Cart.php:367
+msgid "Label"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:203
+#: inc/Customizer/Elements/Cart.php:91
+#: inc/Customizer/Elements/Wishlist.php:74
+msgid "Toggle to show as label or tooltip"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:225
+msgid "Name"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:229
+#: inc/Customizer/Elements/BaseHTML.php:72
+#: inc/Customizer/Elements/Button.php:372
+#: inc/Customizer/Elements/Contact.php:351
+#: inc/Customizer/Elements/Copyright.php:92
+#: inc/Customizer/Elements/Wishlist.php:588
+msgid "Text"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:239
+#: inc/Customizer/Elements/Account.php:496
+msgid "Add label"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:280
+#: inc/Customizer/Elements/Contact.php:135
+#: inc/Customizer/Elements/Wishlist.php:143
+msgid "Label position"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:319
+#: inc/Customizer/Elements/Account.php:406
+msgid "Open in a new tab"
+msgstr ""
+
+#. Translators: %s Link to menu.
+#: inc/Customizer/Elements/Account.php:364
+msgid "If you want to choose menu, configure menu from <a target=\"_blank\" class=\"text-wp\" href=\"%1s\">here</a>"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:520
+msgid "Icon account"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:529
+#: inc/Customizer/Elements/Contact.php:179
+#: inc/Customizer/Elements/Currency.php:348
+#: inc/Customizer/Elements/Search.php:252
+#: inc/Customizer/Elements/Search.php:867
+#: inc/Customizer/Elements/Wishlist.php:342
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:331
+#: inc/I18n.php:124
+msgid "Icon color"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:559
+#: inc/Customizer/Elements/BaseMenu.php:221
+#: inc/Customizer/Elements/BaseSocials.php:181
+#: inc/Customizer/Elements/BaseSocials.php:446
+#: inc/Customizer/Elements/Button.php:227
+#: inc/Customizer/Elements/Cart.php:224
+#: inc/Customizer/Elements/Cart.php:440
+#: inc/Customizer/Elements/Newsletter.php:263
+#: inc/Customizer/Elements/Newsletter.php:521
+#: inc/Customizer/Elements/Search.php:287
+#: inc/Customizer/Elements/Search.php:505
+#: inc/Customizer/Elements/ToggleButton.php:85
+#: inc/Customizer/Elements/Wishlist.php:558
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:353
+#: inc/I18n.php:51
+msgid "Background color"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:589
+#: inc/Customizer/Elements/BaseMenu.php:259
+#: inc/Customizer/Elements/Button.php:257
+#: inc/I18n.php:56
+msgid "Border color"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:619
+#: inc/Customizer/Elements/BaseMenu.php:298
+#: inc/Customizer/Elements/Button.php:287
+#: inc/I18n.php:58
+msgid "Border width"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:649
+#: inc/Customizer/Elements/BaseMenu.php:336
+#: inc/Customizer/Elements/BaseSocials.php:288
+#: inc/Customizer/Elements/BaseSocials.php:534
+#: inc/Customizer/Elements/Button.php:315
+#: inc/Customizer/Elements/Cart.php:313
+#: inc/Customizer/Elements/Contact.php:298
+#: inc/Customizer/Elements/Newsletter.php:352
+#: inc/Customizer/Elements/Newsletter.php:610
+#: inc/Customizer/Elements/Search.php:386
+#: inc/Customizer/Elements/Search.php:594
+#: inc/Customizer/Elements/Search.php:986
+#: inc/Customizer/Elements/ToggleButton.php:174
+#: inc/Customizer/Elements/Wishlist.php:464
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:421
+#: inc/I18n.php:57
+msgid "Border radius"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:679
+msgid "Size icon"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:715
+#: inc/Customizer/Elements/BaseLogo.php:342
+#: inc/Customizer/Elements/BaseLogo.php:393
+#: inc/Customizer/Elements/BaseMenu.php:71
+#: inc/Customizer/Elements/BaseMenu.php:168
+#: inc/Customizer/Elements/BaseMenu.php:413
+#: inc/Customizer/Elements/BaseMenuFooter.php:159
+#: inc/Customizer/Elements/BaseSocials.php:388
+#: inc/Customizer/Elements/Contact.php:362
+#: inc/Customizer/Elements/Newsletter.php:153
+#: inc/Customizer/Elements/Newsletter.php:208
+#: inc/Customizer/Elements/Newsletter.php:502
+#: inc/Customizer/Elements/Search.php:475
+#: inc/Customizer/Elements/Wishlist.php:599
+msgid "Typography"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:734
+#: inc/Customizer/Elements/BaseDivider.php:198
+#: inc/Customizer/Elements/Cart.php:194
+#: inc/Customizer/Elements/ToggleButton.php:55
+#: inc/Customizer/Elements/Wishlist.php:528
+#: inc/Customizer/Layouts/FooterRowSettings.php:568
+#: inc/Customizer/Layouts/HeaderRowSettings.php:256
+msgid "Color"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:764
+#: inc/Customizer/Elements/BaseMenu.php:372
+#: inc/Customizer/Elements/BaseMenu.php:699
+#: inc/Customizer/Elements/BaseMenuFooter.php:204
+#: inc/Customizer/Elements/BaseSocials.php:562
+#: inc/Customizer/Elements/Contact.php:411
+#: inc/Customizer/Elements/PaymentMethod.php:187
+msgid "Item spacing"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:794
+#: inc/Customizer/Elements/BaseHTML.php:134
+#: inc/Customizer/Elements/BaseMenuFooter.php:232
+#: inc/Customizer/Elements/Copyright.php:193
+#: inc/I18n.php:160
+msgid "Padding"
+msgstr ""
+
+#: inc/Customizer/Elements/Account.php:826
+#: inc/Customizer/Elements/BaseHTML.php:166
+#: inc/Customizer/Elements/BaseLanguageSwitcher.php:646
+#: inc/Customizer/Elements/BaseSocials.php:621
+#: inc/Customizer/Elements/BaseWidget.php:157
+#: inc/Customizer/Elements/Contact.php:435
+#: inc/Customizer/Elements/Copyright.php:163
+#: inc/Customizer/Elements/PaymentMethod.php:217
+#: inc/Customizer/Elements/Search.php:1045
+#: inc/Customizer/Elements/ToggleButton.php:227
+#: inc/Customizer/Elements/Wishlist.php:650
+msgid "Margin"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseDivider.php:23
+#: inc/Customizer/Elements/PaymentMethod.php:69
+#: inc/Customizer/Layouts/FooterSettings.php:75
+#: inc/Customizer/Layouts/HeaderSettings.php:81
+msgid "Layout"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseDivider.php:30
+#: inc/Customizer/Elements/BaseMenuFooter.php:37
+#: inc/Customizer/Elements/Contact.php:83
+#: inc/Customizer/Elements/FooterSocials.php:37
+#: inc/Customizer/Elements/PaymentMethod.php:77
+#: inc/Customizer/Layouts/FooterRowSettings.php:466
+msgid "Horizontal"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseDivider.php:34
+#: inc/Customizer/Elements/BaseMenuFooter.php:41
+#: inc/Customizer/Elements/Contact.php:87
+#: inc/Customizer/Elements/FooterSocials.php:41
+#: inc/Customizer/Elements/PaymentMethod.php:81
+#: inc/Customizer/Layouts/FooterRowSettings.php:470
+msgid "Vertical"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseDivider.php:50
+#: inc/Customizer/Elements/BaseDivider.php:124
+#: inc/Customizer/Layouts/HeaderRowSettings.php:126
+msgid "Height (px)"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseDivider.php:87
+#: inc/Customizer/Elements/BaseDivider.php:161
+#: inc/Customizer/Elements/Cart.php:490
+#: inc/Customizer/Layouts/FooterRowSettings.php:589
+#: inc/Customizer/Layouts/HeaderRowSettings.php:277
+msgid "Width"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseHTML.php:39
+#: inc/Customizer/Elements/Copyright.php:21
+msgid "Arbitrary HTML code or shortcode. Available tags: [current_year], [site_title], [theme_author], [heart_icon]"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseHTML.php:54
+#: inc/Customizer/Elements/BaseLogo.php:260
+#: inc/Customizer/Elements/BaseMenu.php:679
+msgid "Content alignment"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseHTML.php:84
+#: inc/Customizer/Elements/BaseLogo.php:320
+#: inc/Customizer/Elements/BaseMenu.php:91
+#: inc/Customizer/Elements/BaseMenu.php:196
+#: inc/Customizer/Elements/BaseMenu.php:433
+#: inc/Customizer/Elements/Contact.php:381
+#: inc/Customizer/Elements/Copyright.php:103
+#: inc/Customizer/Elements/Currency.php:307
+#: inc/Customizer/Elements/Newsletter.php:172
+#: inc/Customizer/Elements/Newsletter.php:227
+#: inc/Customizer/Elements/Newsletter.php:477
+#: inc/Customizer/Elements/Search.php:450
+#: inc/Customizer/Elements/Wishlist.php:618
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:253
+#: inc/I18n.php:195
+msgid "Text color"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseHTML.php:109
+#: inc/Customizer/Elements/Copyright.php:133
+msgid "Link color"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLanguageSwitcher.php:62
+#: inc/Customizer/Elements/BaseLanguageSwitcher.php:249
+msgid "Flag icon"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLanguageSwitcher.php:170
+msgid "Select show type"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLanguageSwitcher.php:347
+msgid "Arrow icon"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLanguageSwitcher.php:417
+msgid "Country name"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLanguageSwitcher.php:478
+msgid "Item language"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLogo.php:21
+#: inc/Customizer/Elements/BaseLogo.php:490
+#: inc/Customizer/Elements/FooterLogo.php:16
+#: inc/Customizer/Elements/HeaderLogo.php:16
+msgid "Logo"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLogo.php:71
+msgid "Logo on mobile"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLogo.php:122
+msgid "Sticky Logo"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLogo.php:185
+msgid "Site title"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLogo.php:194
+#: inc/Customizer/Elements/BaseLogo.php:215
+#: inc/Customizer/Layouts/HeaderRowSettings.php:192
+msgid "Enable on"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLogo.php:206
+#: inc/Customizer/Elements/BaseLogo.php:361
+msgid "Tagline"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLogo.php:228
+msgid "Content position"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLogo.php:290
+#: inc/Customizer/Elements/BaseMenu.php:39
+#: inc/Customizer/Elements/Wishlist.php:309
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:220
+msgid "Add CSS class"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLogo.php:310
+#: inc/Customizer/Elements/BaseMenuFooter.php:120
+#: inc/Customizer/Elements/Newsletter.php:25
+msgid "Title"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseLogo.php:371
+msgid "Tagline color"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:59
+msgid "Menu item"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:121
+#: inc/Customizer/Layouts/FooterRowSettings.php:674
+msgid "Height"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:157
+msgid "Item active"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:401
+msgid "Canvas submenu"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:468
+msgid "Item background"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:503
+msgid "Canvas background"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:528
+msgid "Item height"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:565
+msgid "Canvas width"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:592
+#: inc/Customizer/Layouts/HeaderSettings.php:211
+msgid "Shadow"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:626
+msgid "Divider width"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:655
+msgid "Divider color"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:723
+msgid "Canvas padding"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenu.php:863
+#: inc/Customizer/Layouts/HeaderSettings.php:181
+#: inc/I18n.php:86
+msgid "Default"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenuFooter.php:24
+#: inc/Customizer/Elements/Contact.php:71
+#: inc/Customizer/Elements/FooterSocials.php:24
+#: inc/Customizer/Layouts/FooterRowSettings.php:459
+msgid "Items direction"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenuFooter.php:68
+msgid "Menu title"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenuFooter.php:86
+#: inc/Customizer/Elements/BaseWidget.php:47
+#: inc/Customizer/Elements/Newsletter.php:124
+#: inc/Customizer/Layouts/FooterRowSettings.php:425
+msgid "Horizontal alignment"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenuFooter.php:132
+msgid "Title spacing"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseMenuFooter.php:179
+msgid "Title color"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:55
+msgid "List socials"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:64
+msgid "Icons color"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:86
+#: inc/Customizer/Elements/Contact.php:50
+msgid "Open links in new tab"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:108
+msgid "Show label"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:134
+msgid "Logo social"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:145
+msgid "Logo color"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:217
+#: inc/Customizer/Elements/BaseSocials.php:476
+#: inc/Customizer/Elements/Cart.php:254
+#: inc/Customizer/Elements/Contact.php:239
+#: inc/Customizer/Elements/Currency.php:195
+#: inc/Customizer/Elements/Newsletter.php:293
+#: inc/Customizer/Elements/Newsletter.php:551
+#: inc/Customizer/Elements/PaymentMethod.php:109
+#: inc/Customizer/Elements/Search.php:322
+#: inc/Customizer/Elements/Search.php:535
+#: inc/Customizer/Elements/Search.php:786
+#: inc/Customizer/Elements/Search.php:927
+#: inc/Customizer/Elements/ToggleButton.php:115
+#: inc/Customizer/Elements/Wishlist.php:405
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:375
+msgid "Stroke color"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:253
+#: inc/Customizer/Elements/BaseSocials.php:506
+#: inc/Customizer/Elements/Cart.php:284
+#: inc/Customizer/Elements/Contact.php:269
+#: inc/Customizer/Elements/Currency.php:225
+#: inc/Customizer/Elements/Newsletter.php:323
+#: inc/Customizer/Elements/Newsletter.php:581
+#: inc/Customizer/Elements/PaymentMethod.php:134
+#: inc/Customizer/Elements/Search.php:357
+#: inc/Customizer/Elements/Search.php:565
+#: inc/Customizer/Elements/Search.php:807
+#: inc/Customizer/Elements/Search.php:957
+#: inc/Customizer/Elements/ToggleButton.php:145
+#: inc/Customizer/Elements/Wishlist.php:435
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:397
+msgid "Stroke width"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:323
+#: inc/Customizer/Elements/PaymentMethod.php:163
+msgid "Logo size"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:347
+msgid "Label color"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:377
+msgid "Label social"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:407
+msgid "Label distance"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:435
+msgid "Item social"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseSocials.php:591
+msgid "Item padding"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseWidget.php:70
+#: inc/Customizer/Layouts/FooterRowSettings.php:391
+msgid "Vertical alignment"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseWidget.php:93
+msgid "Font color"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseWidget.php:124
+msgid "Links decoration"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseWidget.php:132
+#: inc/I18n.php:154
+msgid "Normal"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseWidget.php:136
+msgid "Inherit"
+msgstr ""
+
+#: inc/Customizer/Elements/BaseWidget.php:140
+msgid "Underline"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:57
+msgid "Button text"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:75
+msgid "Button link"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:93
+msgid "Button icon"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:118
+msgid "Button type"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:125
+msgid "Fill"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:129
+#: inc/Customizer/Elements/Wishlist.php:60
+msgid "Outline"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:137
+msgid "Button size"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:144
+#: inc/I18n.php:184
+msgid "Small"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:148
+#: inc/I18n.php:148
+msgid "Medium"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:152
+msgid "large"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:171
+msgid "Open link in new tab"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:195
+msgid "CSS classes"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:216
+#: inc/Customizer/Elements/Button.php:719
+#: inc/Customizer/Elements/Newsletter.php:466
+#: inc/I18n.php:61
+msgid "Button"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:343
+msgid "Box shadow"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:383
+#: inc/Customizer/Elements/Cart.php:398
+#: inc/Customizer/Elements/Cart.php:719
+msgid "Text Color"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:445
+#: inc/Customizer/Elements/Contact.php:168
+#: inc/Customizer/Elements/Search.php:44
+#: inc/Customizer/Elements/Wishlist.php:329
+msgid "Icon"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:456
+#: inc/Customizer/Elements/Cart.php:530
+msgid "Icon Color"
+msgstr ""
+
+#: inc/Customizer/Elements/Button.php:486
+#: inc/Customizer/Elements/Cart.php:342
+#: inc/Customizer/Elements/Contact.php:327
+#: inc/Customizer/Elements/Currency.php:378
+#: inc/Customizer/Elements/Search.php:415
+#: inc/Customizer/Elements/Search.php:1015
+#: inc/Customizer/Elements/ToggleButton.php:203
+#: inc/Customizer/Elements/Wishlist.php:493
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:445
+msgid "Icon size"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:36
+msgid "Select cart icon"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:87
+msgid "Cart label"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:130
+msgid "Cart click effect"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:157
+msgid "Show quantity badge"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:183
+msgid "Icon cart"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:429
+msgid "Slider"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:465
+#: inc/Customizer/Elements/Search.php:765
+msgid "Backdrop"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:519
+#: inc/Customizer/Elements/Search.php:856
+msgid "Icon close panel"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:560
+#: inc/Customizer/Elements/Contact.php:209
+#: inc/Customizer/Elements/Search.php:744
+#: inc/Customizer/Elements/Search.php:897
+#: inc/Customizer/Elements/Wishlist.php:375
+#: inc/Customizer/Layouts/FooterRowSettings.php:516
+#: inc/Customizer/Layouts/HeaderRowSettings.php:204
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:276
+#: inc/I18n.php:52
+msgid "Background"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:590
+msgid "Stroke Color"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:708
+msgid "Quantity badge"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:749
+msgid "Background Color"
+msgstr ""
+
+#: inc/Customizer/Elements/Cart.php:977
+#: inc/Niches/Fashion/NicheSetup.php:105
+#: inc/Niches/WooCommerce/NicheSetup.php:107
+msgid "Cart"
+msgstr ""
+
+#: inc/Customizer/Elements/Contact.php:39
+msgid "List contact"
+msgstr ""
+
+#: inc/Customizer/Elements/Contact.php:115
+msgid "Items alignment"
+msgstr ""
+
+#: inc/Customizer/Elements/Contact.php:470
+#: template-parts/builder/elements/menu_footer.php:31
+msgid "Contact"
+msgstr ""
+
+#: inc/Customizer/Elements/Contact.php:575
+msgid "Email"
+msgstr ""
+
+#: inc/Customizer/Elements/Contact.php:583
+msgid "Phone number"
+msgstr ""
+
+#: inc/Customizer/Elements/Contact.php:591
+msgid "Link"
+msgstr ""
+
+#: inc/Customizer/Elements/Contact.php:599
+msgid "Address"
+msgstr ""
+
+#: inc/Customizer/Elements/Contact.php:607
+msgid "Website"
+msgstr ""
+
+#: inc/Customizer/Elements/Contact.php:615
+msgid "Fax"
+msgstr ""
+
+#: inc/Customizer/Elements/Copyright.php:61
+msgid "Content Alignment"
+msgstr ""
+
+#: inc/Customizer/Elements/Copyright.php:227
+msgid "Copyright"
+msgstr ""
+
+#: inc/Customizer/Elements/Currency.php:30
+msgid "Currency"
+msgstr ""
+
+#: inc/Customizer/Elements/Currency.php:53
+msgid "Show currency flag"
+msgstr ""
+
+#: inc/Customizer/Elements/Currency.php:69
+#: inc/Customizer/Elements/Search.php:85
+msgid "Icon position"
+msgstr ""
+
+#: inc/Customizer/Elements/Currency.php:90
+msgid "Show arrow icon"
+msgstr ""
+
+#: inc/Customizer/Elements/Currency.php:124
+msgid "Currency flag"
+msgstr ""
+
+#: inc/Customizer/Elements/Currency.php:254
+msgid "Flag size"
+msgstr ""
+
+#: inc/Customizer/Elements/Currency.php:277
+msgid "Currency code"
+msgstr ""
+
+#: inc/Customizer/Elements/Currency.php:337
+msgid "Icon arrow"
+msgstr ""
+
+#: inc/Customizer/Elements/Divider1.php:14
+msgid "Divider 1"
+msgstr ""
+
+#: inc/Customizer/Elements/Divider2.php:14
+msgid "Divider 2"
+msgstr ""
+
+#: inc/Customizer/Elements/Divider3.php:14
+msgid "Divider 3"
+msgstr ""
+
+#: inc/Customizer/Elements/FooterSocials.php:16
+#: inc/Customizer/Elements/HeaderSocials.php:16
+msgid "Socials"
+msgstr ""
+
+#: inc/Customizer/Elements/HTML1.php:14
+msgid "HTML 1"
+msgstr ""
+
+#: inc/Customizer/Elements/HTML2.php:14
+msgid "HTML 2"
+msgstr ""
+
+#: inc/Customizer/Elements/HTML3.php:14
+msgid "HTML 3"
+msgstr ""
+
+#: inc/Customizer/Elements/HTML4.php:14
+msgid "HTML 4"
+msgstr ""
+
+#: inc/Customizer/Elements/LanguageSwitcher.php:16
+msgid "Language switcher"
+msgstr ""
+
+#: inc/Customizer/Elements/Menu1.php:14
+msgid "Menu 1"
+msgstr ""
+
+#: inc/Customizer/Elements/Menu2.php:14
+msgid "Menu 2"
+msgstr ""
+
+#: inc/Customizer/Elements/Menu3.php:14
+msgid "Menu 3"
+msgstr ""
+
+#: inc/Customizer/Elements/Menu4.php:14
+msgid "Menu 4"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:15
+msgid "Newsletter"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:43
+msgid "Subtitle"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:61
+msgid "Placeholder"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:80
+msgid "Text button"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:98
+msgid "Theme Layout"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:109
+msgid "Layout 1"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:113
+msgid "Layout 2"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:117
+msgid "Layout 3"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:142
+msgid "Title text"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:197
+msgid "Subtitle text"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:252
+msgid "Input box"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:381
+#: inc/Customizer/Elements/Search.php:623
+msgid "Input height"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:409
+#: inc/Customizer/Elements/Search.php:651
+msgid "Input width"
+msgstr ""
+
+#: inc/Customizer/Elements/Newsletter.php:437
+msgid "Element width"
+msgstr ""
+
+#: inc/Customizer/Elements/PaymentMethod.php:48
+msgid "Payment method"
+msgstr ""
+
+#: inc/Customizer/Elements/PaymentMethod.php:60
+msgid "List payments"
+msgstr ""
+
+#: inc/Customizer/Elements/PaymentMethod.php:98
+msgid "Payment item"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:28
+msgid "Search type"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:36
+msgid "Box"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:40
+msgid "Line"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:54
+msgid "Placeholder text"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:98
+msgid "Search through criteria"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:106
+msgid "Products"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:110
+msgid "Pages"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:114
+msgid "Posts"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:131
+msgid "Live results"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:150
+msgid "Panel sidebar - list product view"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:154
+msgid "Panel sidebar - grid product view"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:158
+msgid "Panel Full-screen - grid product view"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:162
+msgid "Panel dropdown - list product view"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:166
+msgid "Panel dropdown - grid product view"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:179
+msgid "Live results image"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:191
+msgid "Show product price in result"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:203
+msgid "Show view more button"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:215
+msgid "Show keyword suggestions"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:241
+msgid "Search icon"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:439
+msgid "Search text"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:494
+msgid "Search box"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:679
+msgid "Clear icon color"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:709
+msgid "Clear icon size"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:732
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:240
+msgid "Panel"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:832
+msgid "Panel height"
+msgstr ""
+
+#: inc/Customizer/Elements/Search.php:1078
+#: inc/I18n.php:174
+#: template-parts/builder/elements/search.php:111
+msgid "Search"
+msgstr ""
+
+#: inc/Customizer/Elements/ToggleButton.php:31
+msgid "Toggle button type"
+msgstr ""
+
+#: inc/Customizer/Elements/ToggleButton.php:44
+msgid "Icon button"
+msgstr ""
+
+#: inc/Customizer/Elements/ToggleButton.php:262
+msgid "Toggle button"
+msgstr ""
+
+#: inc/Customizer/Elements/Widget1.php:12
+msgid "Widget 1"
+msgstr ""
+
+#: inc/Customizer/Elements/Widget2.php:12
+msgid "Widget 2"
+msgstr ""
+
+#: inc/Customizer/Elements/Widget3.php:12
+msgid "Widget 3"
+msgstr ""
+
+#: inc/Customizer/Elements/Widget4.php:12
+msgid "Widget 4"
+msgstr ""
+
+#: inc/Customizer/Elements/Widget5.php:14
+msgid "Widget 5"
+msgstr ""
+
+#: inc/Customizer/Elements/Widget6.php:14
+msgid "Widget 6"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:28
+msgid "Wishlist icon"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:56
+msgid "Bold"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:70
+msgid "Show wishlist label"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:182
+msgid "Wishlist click effect"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:190
+msgid "Dropdown"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:194
+msgid "Slide-in"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:198
+msgid "Page"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:208
+msgid "Slide position"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:237
+msgid "Show badge number"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:280
+msgid "Show product type"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:288
+msgid "Grid view"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:292
+msgid "List view"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:517
+msgid "Badge number"
+msgstr ""
+
+#: inc/Customizer/Elements/Wishlist.php:683
+#: inc/Customizer/Panels/WishlistPanel.php:38
+#: inc/Customizer/Panels/WishlistPanel.php:54
+#: inc/Customizer/Panels/WishlistPanel.php:64
+#: inc/Customizer/Panels/WishlistPanel.php:73
+msgid "Wishlist"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterRowSettings.php:22
+msgid "Top footer"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterRowSettings.php:25
+msgid "Middle footer"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterRowSettings.php:28
+msgid "Bottom footer"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterRowSettings.php:125
+msgid "Columns"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterRowSettings.php:168
+#: inc/Customizer/Layouts/FooterRowSettings.php:187
+#: inc/Customizer/Layouts/FooterRowSettings.php:227
+#: inc/Customizer/Layouts/FooterRowSettings.php:267
+#: inc/Customizer/Layouts/FooterRowSettings.php:307
+#: inc/Customizer/Layouts/FooterRowSettings.php:347
+msgid "Columns layout"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterRowSettings.php:367
+msgid "Columns spacing"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterRowSettings.php:557
+msgid "Top stroke"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterRowSettings.php:704
+#: inc/Customizer/Layouts/HeaderRowSettings.php:163
+msgid "Stretch item"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterRowSettings.php:714
+#: inc/Customizer/Layouts/HeaderRowSettings.php:173
+msgid "Enabling this option will make the item to stretch and fit the width of its parent row."
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:31
+#: inc/Customizer/Panels/FooterPanel.php:35
+#: inc/Customizer/Panels/FooterPanel.php:45
+#: inc/Customizer/Panels/FooterPanel.php:54
+#: inc/I18n.php:99
+msgid "Footer"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:66
+#: inc/I18n.php:98
+msgid "Footer name"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:82
+#: inc/Customizer/Layouts/HeaderSettings.php:88
+msgid "Boxed"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:86
+#: inc/Customizer/Layouts/HeaderSettings.php:92
+msgid "Full width"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:104
+#: inc/Customizer/Layouts/HeaderSettings.php:199
+msgid "Transparent"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:116
+#: inc/Customizer/Layouts/HeaderSettings.php:240
+msgid "Enable on entire website"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:124
+#: inc/Customizer/Layouts/HeaderSettings.php:248
+msgid "Disable on 404, Search & Archives?"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:128
+#: inc/Customizer/Layouts/HeaderSettings.php:252
+msgid "Disable on Blog page?"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:132
+#: inc/Customizer/Layouts/HeaderSettings.php:256
+msgid "Disable on Latest Post page?"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:136
+#: inc/Customizer/Layouts/HeaderSettings.php:260
+msgid "Disable on Pages?"
+msgstr ""
+
+#: inc/Customizer/Layouts/FooterSettings.php:140
+#: inc/Customizer/Layouts/HeaderSettings.php:264
+msgid "Disable on Posts?"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderRowSettings.php:32
+msgid "Top header"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderRowSettings.php:35
+msgid "Middle header"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderRowSettings.php:38
+msgid "Bottom header"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderRowSettings.php:178
+msgid "Expand on mobile"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderRowSettings.php:183
+msgid "Enabling this option will auto hide column 2, 3 and display only when clicking expand button."
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderRowSettings.php:245
+msgid "Bottom stroke"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:31
+#: inc/Customizer/Panels/HeaderPanel.php:37
+#: inc/Customizer/Panels/HeaderPanel.php:47
+#: inc/Customizer/Panels/HeaderPanel.php:56
+#: inc/I18n.php:109
+msgid "Header"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:72
+#: inc/I18n.php:108
+msgid "Header name"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:110
+msgid "Sticky functionality"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:127
+msgid "Sticky on"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:139
+msgid "Only main row"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:143
+msgid "Top & main row"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:147
+msgid "All rows"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:151
+msgid "Main & bottom row"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:155
+msgid "Only top row"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:159
+msgid "Only bottom row"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:169
+msgid "Effect"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:185
+msgid "Slide down"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:189
+msgid "Face"
+msgstr ""
+
+#: inc/Customizer/Layouts/HeaderSettings.php:274
+msgid "Sticky background"
+msgstr ""
+
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:26
+#: inc/I18n.php:202
+msgid "Toggle off canvas"
+msgstr ""
+
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:116
+msgid "Canvas type"
+msgstr ""
+
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:128
+msgid "Popup width"
+msgstr ""
+
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:152
+msgid "Content horizontal alignment"
+msgstr ""
+
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:186
+msgid "Align selected element & the below in bottom"
+msgstr ""
+
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:297
+msgid "Backdrop color"
+msgstr ""
+
+#: inc/Customizer/Layouts/ToggleOffCanvasSettings.php:318
+msgid "Close button"
+msgstr ""
+
+#: inc/Customizer/Panels/ColorsPanel.php:37
+#: inc/Customizer/Panels/ColorsPanel.php:53
+#: inc/Customizer/Panels/ColorsPanel.php:63
+#: inc/Customizer/Panels/ColorsPanel.php:72
+msgid "Colors"
+msgstr ""
+
+#: inc/Customizer/Panels/ColorsPanel.php:87
+msgid "Global Palettes"
+msgstr ""
+
+#: inc/Customizer/Panels/FooterPanel.php:143
+msgid "Default Footer"
+msgstr ""
+
+#: inc/Customizer/Panels/General/ButtonSettingsSection.php:61
+#: inc/Customizer/Panels/General/ButtonSettingsSection.php:69
+msgid "Button settings"
+msgstr ""
+
+#: inc/Customizer/Panels/General/ContentSettingsSection.php:61
+#: inc/Customizer/Panels/General/ContentSettingsSection.php:69
+msgid "Content settings"
+msgstr ""
+
+#: inc/Customizer/Panels/General/GeneralPanel.php:46
+#: inc/Customizer/Panels/General/GeneralPanel.php:62
+#: inc/I18n.php:101
+msgid "General"
+msgstr ""
+
+#: inc/Customizer/Panels/HeaderPanel.php:144
+msgid "Default Header"
+msgstr ""
+
+#: inc/Customizer/Panels/WooCommerce/Checkout.php:61
+#: inc/Niches/Fashion/NicheSetup.php:110
+#: inc/Niches/WooCommerce/NicheSetup.php:112
+msgid "Checkout"
+msgstr ""
+
+#: inc/Customizer/Panels/WooCommerce/ProductCatalogSection.php:61
+#: inc/Customizer/Panels/WooCommerce/ProductCatalogSection.php:69
+msgid "Product catalog"
+msgstr ""
+
+#: inc/Customizer/Panels/WooCommerce/SaleBadgeSection.php:61
+#: inc/Customizer/Panels/WooCommerce/SaleBadgeSection.php:69
+msgid "Sale badge"
+msgstr ""
+
+#: inc/Customizer/Panels/WooCommerce/StoreNoticesSection.php:61
+#: inc/Customizer/Panels/WooCommerce/StoreNoticesSection.php:69
+msgid "Store notices"
+msgstr ""
+
+#: inc/Customizer/Panels/WooCommerce/WooCommercePanel.php:52
+#: inc/Customizer/Panels/WooCommerce/WooCommercePanel.php:72
+#: inc/I18n.php:218
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/Functions/CoreFunctions.php:114
+msgid "minute"
+msgstr ""
+
+#: inc/Functions/CoreFunctions.php:114
+msgid "minutes"
+msgstr ""
+
+#: inc/I18n.php:35
+msgid "© Developed by NinjaTeam - Excellence in Every Line of Code!"
+msgstr ""
+
+#: inc/I18n.php:36
+msgid "A Speedy WooCommerce Block Theme by YayCommerce!"
+msgstr ""
+
+#: inc/I18n.php:37
+msgid "Accent"
+msgstr ""
+
+#: inc/I18n.php:38
+msgid "Activated"
+msgstr ""
+
+#: inc/I18n.php:39
+msgid "Active"
+msgstr ""
+
+#: inc/I18n.php:40
+msgid "Add a block"
+msgstr ""
+
+#: inc/I18n.php:41
+msgid "Add an element"
+msgstr ""
+
+#: inc/I18n.php:42
+msgid "Add to wishlist text"
+msgstr ""
+
+#: inc/I18n.php:43
+msgid "Added text"
+msgstr ""
+
+#: inc/I18n.php:44
+msgid "Address line 2 field"
+msgstr ""
+
+#: inc/I18n.php:45
+msgid "All Headings (H1 - H6)"
+msgstr ""
+
+#: inc/I18n.php:46
+msgid "All Plugins"
+msgstr ""
+
+#: inc/I18n.php:47
+msgid "Already in package text"
+msgstr ""
+
+#: inc/I18n.php:48
+msgid "Appearance"
+msgstr ""
+
+#: inc/I18n.php:49
+msgid "Average rating"
+msgstr ""
+
+#: inc/I18n.php:50
+msgid "Back"
+msgstr ""
+
+#: inc/I18n.php:53
+msgid "Blur"
+msgstr ""
+
+#: inc/I18n.php:54
+msgid "Body text"
+msgstr ""
+
+#: inc/I18n.php:55
+msgid "Body"
+msgstr ""
+
+#: inc/I18n.php:59
+msgid "Border"
+msgstr ""
+
+#: inc/I18n.php:60
+msgid "Button Options"
+msgstr ""
+
+#: inc/I18n.php:62
+msgid "Category display"
+msgstr ""
+
+#: inc/I18n.php:63
+msgid "Changelog"
+msgstr ""
+
+#: inc/I18n.php:64
+msgid "Chat Now"
+msgstr ""
+
+#: inc/I18n.php:65
+msgid "Choose items you want to sync with Brandy"
+msgstr ""
+
+#: inc/I18n.php:66
+msgid "Choose what to display on product category pages."
+msgstr ""
+
+#: inc/I18n.php:67
+msgid "Choose what to display on the main shop page."
+msgstr ""
+
+#: inc/I18n.php:68
+msgid "Close inserter"
+msgstr ""
+
+#: inc/I18n.php:69
+msgid "Color Options"
+msgstr ""
+
+#: inc/I18n.php:70
+msgid "Coming soon mode"
+msgstr ""
+
+#: inc/I18n.php:71
+msgid "Company name field"
+msgstr ""
+
+#: inc/I18n.php:72
+msgid "Container width"
+msgstr ""
+
+#: inc/I18n.php:73
+msgid "Content background"
+msgstr ""
+
+#: inc/I18n.php:74
+msgid "Content line height"
+msgstr ""
+
+#: inc/I18n.php:75
+msgid "Content spacing"
+msgstr ""
+
+#: inc/I18n.php:76
+msgid "Copy elements & styles from"
+msgstr ""
+
+#: inc/I18n.php:77
+msgid "Create footer"
+msgstr ""
+
+#: inc/I18n.php:78
+msgid "Create header"
+msgstr ""
+
+#: inc/I18n.php:79
+msgid "Create new footer"
+msgstr ""
+
+#: inc/I18n.php:80
+msgid "Create new header"
+msgstr ""
+
+#: inc/I18n.php:81
+msgid "Custom shadow"
+msgstr ""
+
+#: inc/I18n.php:82
+msgid "Customize"
+msgstr ""
+
+#: inc/I18n.php:83
+msgid "Customizing"
+msgstr ""
+
+#: inc/I18n.php:84
+msgid "Default product sorting"
+msgstr ""
+
+#: inc/I18n.php:85
+msgid "Default sorting (custom ordering + name)"
+msgstr ""
+
+#: inc/I18n.php:87
+#: inc/Integrations/Elementor/Customizer/ElementorPanel.php:42
+#: inc/Integrations/Elementor/Customizer/ElementorPanel.php:58
+msgid "Elementor"
+msgstr ""
+
+#: inc/I18n.php:88
+msgid "Elements"
+msgstr ""
+
+#: inc/I18n.php:89
+msgid "Email builder"
+msgstr ""
+
+#: inc/I18n.php:90
+msgid "Empty footer template"
+msgstr ""
+
+#: inc/I18n.php:91
+msgid "Empty header template"
+msgstr ""
+
+#: inc/I18n.php:92
+msgid "Enjoy Brandy theme?"
+msgstr ""
+
+#: inc/I18n.php:93
+msgid "Error notice"
+msgstr ""
+
+#: inc/I18n.php:94
+msgid "Font family"
+msgstr ""
+
+#: inc/I18n.php:95
+msgid "Font size"
+msgstr ""
+
+#: inc/I18n.php:96
+msgid "Font style"
+msgstr ""
+
+#: inc/I18n.php:97
+msgid "Footer Builder"
+msgstr ""
+
+#: inc/I18n.php:100
+msgid "Footers"
+msgstr ""
+
+#: inc/I18n.php:102
+msgid "Global Footer"
+msgstr ""
+
+#: inc/I18n.php:103
+msgid "Global Header"
+msgstr ""
+
+#: inc/I18n.php:104
+msgid "Global"
+msgstr ""
+
+#: inc/I18n.php:105
+msgid "Go to documentation"
+msgstr ""
+
+#: inc/I18n.php:106
+msgid "Guidelines"
+msgstr ""
+
+#: inc/I18n.php:107
+msgid "Header Builder"
+msgstr ""
+
+#: inc/I18n.php:110
+msgid "Headers"
+msgstr ""
+
+#: inc/I18n.php:111
+msgid "Heading 1 (H1)"
+msgstr ""
+
+#: inc/I18n.php:112
+msgid "Heading 2 (H2)"
+msgstr ""
+
+#: inc/I18n.php:113
+msgid "Heading 3 (H3)"
+msgstr ""
+
+#: inc/I18n.php:114
+msgid "Heading 4 (H4)"
+msgstr ""
+
+#: inc/I18n.php:115
+msgid "Heading 5 (H5)"
+msgstr ""
+
+#: inc/I18n.php:116
+msgid "Heading 6 (H6)"
+msgstr ""
+
+#: inc/I18n.php:117
+msgid "Heading"
+msgstr ""
+
+#: inc/I18n.php:118
+msgid "Hi Admin"
+msgstr ""
+
+#: inc/I18n.php:119
+msgid "Hidden"
+msgstr ""
+
+#: inc/I18n.php:120
+msgid "Highlight required fields with an asterisk"
+msgstr ""
+
+#: inc/I18n.php:121
+msgid "Hover"
+msgstr ""
+
+#: inc/I18n.php:122
+msgid "How many products should be shown per page?"
+msgstr ""
+
+#: inc/I18n.php:123
+msgid "How many products should be shown per row?"
+msgstr ""
+
+#: inc/I18n.php:125
+msgid "Import Sample Site"
+msgstr ""
+
+#: inc/I18n.php:126
+msgid "Import"
+msgstr ""
+
+#: inc/I18n.php:127
+msgid "Imported failed"
+msgstr ""
+
+#: inc/I18n.php:128
+msgid "Importing"
+msgstr ""
+
+#: inc/I18n.php:129
+msgid "Inactive"
+msgstr ""
+
+#: inc/I18n.php:130
+msgid "Information notice"
+msgstr ""
+
+#: inc/I18n.php:131
+msgid "Install conversion-driven plugins"
+msgstr ""
+
+#: inc/I18n.php:132
+msgid "Installed"
+msgstr ""
+
+#: inc/I18n.php:133
+msgid "It is optional & should take only a few minutes."
+msgstr ""
+
+#: inc/I18n.php:134
+msgid "Large"
+msgstr ""
+
+#: inc/I18n.php:135
+msgid "Layout Options"
+msgstr ""
+
+#: inc/I18n.php:136
+msgid "Leave a Review"
+msgstr ""
+
+#: inc/I18n.php:137
+msgid "Letter spacing"
+msgstr ""
+
+#: inc/I18n.php:138
+msgid "Line height"
+msgstr ""
+
+#: inc/I18n.php:139
+msgid "Links"
+msgstr ""
+
+#: inc/I18n.php:140
+msgid "List Currencies"
+msgstr ""
+
+#: inc/I18n.php:141
+msgid "List contacts"
+msgstr ""
+
+#: inc/I18n.php:142
+msgid "List languages"
+msgstr ""
+
+#: inc/I18n.php:143
+msgid "Live Chat 24/7"
+msgstr ""
+
+#: inc/I18n.php:144
+msgid "Loose"
+msgstr ""
+
+#: inc/I18n.php:145
+msgid "Manage your menu items in the"
+msgstr ""
+
+#: inc/I18n.php:146
+msgid "Management"
+msgstr ""
+
+#: inc/I18n.php:147
+msgid "Marketing"
+msgstr ""
+
+#: inc/I18n.php:149
+msgid "Menus Options"
+msgstr ""
+
+#: inc/I18n.php:150
+msgid "Miss something? Please feel free to contact us"
+msgstr ""
+
+#: inc/I18n.php:151
+msgid "Modal title"
+msgstr ""
+
+#: inc/I18n.php:152
+msgid "Next"
+msgstr ""
+
+#: inc/I18n.php:153
+msgid "No plugin found."
+msgstr ""
+
+#: inc/I18n.php:155
+msgid "Not found"
+msgstr ""
+
+#: inc/I18n.php:156
+msgid "Not installed"
+msgstr ""
+
+#: inc/I18n.php:157
+msgid "Optional"
+msgstr ""
+
+#: inc/I18n.php:158
+msgid "Override settings"
+msgstr ""
+
+#: inc/I18n.php:159
+msgid "Override successfully, please refresh page to see difference."
+msgstr ""
+
+#: inc/I18n.php:161
+msgid "Phone field"
+msgstr ""
+
+#: inc/I18n.php:162
+msgid "Pick your theme template"
+msgstr ""
+
+#: inc/I18n.php:163
+msgid "Popularity (sales)"
+msgstr ""
+
+#: inc/I18n.php:164
+msgid "Preview"
+msgstr ""
+
+#: inc/I18n.php:165
+msgid "Privacy policy page"
+msgstr ""
+
+#: inc/I18n.php:166
+msgid "Privacy policy"
+msgstr ""
+
+#: inc/I18n.php:167
+msgid "Procceed"
+msgstr ""
+
+#: inc/I18n.php:168
+msgid "Products per page"
+msgstr ""
+
+#: inc/I18n.php:169
+msgid "Products per row"
+msgstr ""
+
+#: inc/I18n.php:170
+msgid "Quick settings"
+msgstr ""
+
+#: inc/I18n.php:171
+msgid "Required"
+msgstr ""
+
+#: inc/I18n.php:172
+msgid "Return to the dashboard"
+msgstr ""
+
+#: inc/I18n.php:173
+msgid "Sales booster"
+msgstr ""
+
+#: inc/I18n.php:175
+msgid "Select menu item active type"
+msgstr ""
+
+#: inc/I18n.php:176
+msgid "Selected"
+msgstr ""
+
+#: inc/I18n.php:177
+msgid "Share your feedback"
+msgstr ""
+
+#: inc/I18n.php:178
+msgid "Shop page display"
+msgstr ""
+
+#: inc/I18n.php:179
+msgid "Show categories & products"
+msgstr ""
+
+#: inc/I18n.php:180
+msgid "Show categories"
+msgstr ""
+
+#: inc/I18n.php:181
+msgid "Show products"
+msgstr ""
+
+#: inc/I18n.php:182
+msgid "Site Identity"
+msgstr ""
+
+#: inc/I18n.php:183
+msgid "Site background"
+msgstr ""
+
+#: inc/I18n.php:185
+msgid "Sort by most recent"
+msgstr ""
+
+#: inc/I18n.php:186
+msgid "Sort by price (asc)"
+msgstr ""
+
+#: inc/I18n.php:187
+msgid "Sort by price (desc)"
+msgstr ""
+
+#: inc/I18n.php:188
+msgid "Spread"
+msgstr ""
+
+#: inc/I18n.php:189
+msgid "Start Customizing"
+msgstr ""
+
+#: inc/I18n.php:190
+msgid "Start wizard"
+msgstr ""
+
+#: inc/I18n.php:191
+msgid "Success notice"
+msgstr ""
+
+#: inc/I18n.php:192
+msgid "Support"
+msgstr ""
+
+#: inc/I18n.php:193
+msgid "System status"
+msgstr ""
+
+#: inc/I18n.php:194
+msgid "Terms and conditions page"
+msgstr ""
+
+#: inc/I18n.php:196
+msgid "Text size"
+msgstr ""
+
+#: inc/I18n.php:197
+msgid "Theme name has existed"
+msgstr ""
+
+#: inc/I18n.php:198
+msgid "This will be used as website primary font"
+msgstr ""
+
+#: inc/I18n.php:199
+msgid "This will override all your Elementor settings"
+msgstr ""
+
+#: inc/I18n.php:200
+msgid "Tight"
+msgstr ""
+
+#: inc/I18n.php:201
+msgid "Tips"
+msgstr ""
+
+#: inc/I18n.php:203
+msgid "Type"
+msgstr ""
+
+#: inc/I18n.php:204
+msgid "Typography Options"
+msgstr ""
+
+#: inc/I18n.php:205
+msgid "Upsell in WooCommerce"
+msgstr ""
+
+#: inc/I18n.php:206
+msgid "Using footer presets"
+msgstr ""
+
+#: inc/I18n.php:207
+msgid "Using header presets"
+msgstr ""
+
+#: inc/I18n.php:208
+msgid "Version"
+msgstr ""
+
+#: inc/I18n.php:209
+msgid "Video tutorials"
+msgstr ""
+
+#: inc/I18n.php:210
+msgid "View store"
+msgstr ""
+
+#: inc/I18n.php:211
+msgid "View wishlist text"
+msgstr ""
+
+#: inc/I18n.php:212
+msgid "Visit website"
+msgstr ""
+
+#: inc/I18n.php:213
+msgid "Welcome to Brandy WooCommerce!"
+msgstr ""
+
+#: inc/I18n.php:214
+msgid "Welcome to Brandy WooCommerce"
+msgstr ""
+
+#: inc/I18n.php:215
+msgid "Wishlist Options"
+msgstr ""
+
+#: inc/I18n.php:216
+msgid "Wishlist page"
+msgstr ""
+
+#: inc/I18n.php:217
+msgid "WooCommerce Options"
+msgstr ""
+
+#: inc/I18n.php:219
+msgid "WordPress.org"
+msgstr ""
+
+#: inc/I18n.php:220
+msgid "X offset"
+msgstr ""
+
+#: inc/I18n.php:221
+msgid "Y offset"
+msgstr ""
+
+#: inc/I18n.php:222
+msgid "Your footer name"
+msgstr ""
+
+#: inc/I18n.php:223
+msgid "Your header name"
+msgstr ""
+
+#: inc/I18n.php:224
+msgid "Your store is ready! Check it out!"
+msgstr ""
+
+#: inc/I18n.php:225
+msgid "and help us create a product you love. Or review us on"
+msgstr ""
+
+#: inc/I18n.php:226
+msgid "plugin"
+msgstr ""
+
+#: inc/I18n.php:227
+msgid "plugins"
+msgstr ""
+
+#: inc/Integrations/Elementor/Customizer/SyncSettingsSection.php:61
+#: inc/Integrations/Elementor/Customizer/SyncSettingsSection.php:70
+msgid "Sync settings"
+msgstr ""
+
+#: inc/Integrations/Elementor/ElementorIntegration.php:81
+msgid "Sync successfully"
+msgstr ""
+
+#. Translators: %s Palette number.
+#: inc/Integrations/Elementor/KitService.php:72
+msgid "Brandy Palette %s"
+msgstr ""
+
+#: inc/Integrations/Elementor/KitService.php:81
+msgid "Brandy Body Text Primary"
+msgstr ""
+
+#: inc/Integrations/Elementor/KitService.php:86
+msgid "Brandy Body Text Secondary"
+msgstr ""
+
+#: inc/Integrations/Elementor/KitService.php:91
+msgid "Brandy Link Normal"
+msgstr ""
+
+#: inc/Integrations/Elementor/KitService.php:96
+msgid "Brandy Link Hover"
+msgstr ""
+
+#: inc/Integrations/Elementor/KitService.php:101
+msgid "Brandy Heading"
+msgstr ""
+
+#: inc/Integrations/Elementor/KitService.php:106
+msgid "Brandy Button Color Normal"
+msgstr ""
+
+#: inc/Integrations/Elementor/KitService.php:111
+msgid "Brandy Button Color Hover"
+msgstr ""
+
+#: inc/Integrations/Elementor/KitService.php:116
+msgid "Brandy Button Background Normal"
+msgstr ""
+
+#: inc/Integrations/Elementor/KitService.php:121
+msgid "Brandy Button Background Hover"
+msgstr ""
+
+#. Translators: %s Heading number.
+#: inc/Integrations/Elementor/KitService.php:130
+msgid "Brandy Heading %s"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:87
+#: inc/Niches/WooCommerce/NicheSetup.php:88
+msgid "Shopping menu"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:90
+#: inc/Niches/WooCommerce/NicheSetup.php:92
+msgid "Home"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:95
+#: inc/Niches/WooCommerce/NicheSetup.php:97
+#: index.php:32
+#: template-parts/builder/elements/menu_footer.php:32
+msgid "Blog"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:100
+#: inc/Niches/WooCommerce/NicheSetup.php:102
+msgid "Shop"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:115
+#: inc/Niches/Fashion/NicheSetup.php:151
+#: inc/Niches/WooCommerce/NicheSetup.php:117
+#: inc/Niches/WooCommerce/NicheSetup.php:152
+msgid "FAQ"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:120
+#: inc/Niches/Fashion/NicheSetup.php:156
+#: inc/Niches/WooCommerce/NicheSetup.php:122
+#: inc/Niches/WooCommerce/NicheSetup.php:157
+msgid "Contact us"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:128
+#: inc/Niches/WooCommerce/NicheSetup.php:129
+msgid "Customer service"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:131
+#: inc/Niches/WooCommerce/NicheSetup.php:132
+msgid "Shipping & delivery"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:136
+#: inc/Niches/WooCommerce/NicheSetup.php:137
+msgid "Track your order"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:141
+#: inc/Niches/WooCommerce/NicheSetup.php:142
+msgid "Refund policy"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:146
+#: inc/Niches/WooCommerce/NicheSetup.php:147
+msgid "Terms and conditions"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:163
+#: inc/Niches/WooCommerce/NicheSetup.php:164
+msgid "Special sales menu"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:166
+#: inc/Niches/WooCommerce/NicheSetup.php:167
+msgid "Our best seller"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:171
+#: inc/Niches/WooCommerce/NicheSetup.php:172
+msgid "-50% off items"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:176
+#: inc/Niches/WooCommerce/NicheSetup.php:177
+msgid "Buy 3 and pay 2"
+msgstr ""
+
+#: inc/Niches/Fashion/NicheSetup.php:181
+#: inc/Niches/WooCommerce/NicheSetup.php:182
+msgid "Custom order"
+msgstr ""
+
+#. Translators: %s Author name.
+#: inc/Niches/Fashion/template-parts/single-post-card.php:25
+msgid "By %s"
+msgstr ""
+
+#. Translators: %s Post date.
+#: inc/Niches/Fashion/template-parts/single-post-card.php:46
+#: inc/Niches/WooCommerce/template-parts/single-post-card.php:12
+#: template-parts/single-post-card.php:19
+#: template-parts/single-post.php:61
+msgid "Posted on %s "
+msgstr ""
+
+#. Translators: %s Time to read post.
+#: inc/Niches/Fashion/template-parts/single-post-card.php:53
+#: template-parts/single-post.php:67
+msgid "%s read "
+msgstr ""
+
+#: inc/Niches/Fashion/template-parts/single-post-card.php:57
+msgid "Continue reading"
+msgstr ""
+
+#. Translators: %s Link.
+#: inc/Wishlist/Initialize.php:96
+msgid "Please %1$1slogin%2$2s to add this product to wishlist!"
+msgstr ""
+
+#: inc/Wishlist/Initialize.php:160
+#: inc/Wishlist/Initialize.php:221
+msgid "Verify nonce failed"
+msgstr ""
+
+#: inc/Wishlist/Initialize.php:165
+#: inc/Wishlist/Initialize.php:227
+msgid "Not logged in"
+msgstr ""
+
+#: inc/Wishlist/Initialize.php:169
+msgid "WooCommerce uninstalled"
+msgstr ""
+
+#: inc/Wishlist/Initialize.php:177
+msgid "Product not found"
+msgstr ""
+
+#: inc/Wishlist/Initialize.php:196
+msgid "Success"
+msgstr ""
+
+#: inc/Wishlist/Initialize.php:250
+msgid "Removed"
+msgstr ""
+
+#: inc/WooCommerce/SingleProduct.php:30
+msgid "Reviews"
+msgstr ""
+
+#. Translators: %s Search text.
+#: search.php:30
+msgid "Search results for ‟%s”"
+msgstr ""
+
+#: template-parts/builder/elements/cart.php:77
+#: template-parts/builder/elements/cart.php:107
+msgid "Please install WooCommerce"
+msgstr ""
+
+#: template-parts/builder/elements/menu_footer.php:24
+msgid "Women"
+msgstr ""
+
+#: template-parts/builder/elements/menu_footer.php:25
+msgid "Men"
+msgstr ""
+
+#: template-parts/builder/elements/menu_footer.php:26
+msgid "Kid"
+msgstr ""
+
+#: template-parts/builder/elements/menu_footer.php:27
+msgid "Outlet"
+msgstr ""
+
+#: template-parts/builder/elements/menu_footer.php:30
+msgid "About"
+msgstr ""
+
+#: template-parts/builder/elements/menu_footer.php:33
+msgid "Store"
+msgstr ""
+
+#. translators: part name.
+#: template-parts/common/edit-row-button.php:9
+#: template-parts/common/edit-section-button.php:9
+msgid "Click to edit %s"
+msgstr ""
+
+#. translators: part name.
+#: template-parts/common/edit-row-button.php:12
+#: template-parts/common/edit-section-button.php:12
+msgid "Edit %s"
+msgstr ""
+
+#: template-parts/common/edit-row-button.php:20
+msgid "Edit"
+msgstr ""
+
+#: template-parts/empty-posts.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: URL
+#: template-parts/empty-posts.php:23
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/empty-posts.php:29
+#: template-parts/empty-search.php:14
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: template-parts/empty-posts.php:34
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: template-parts/empty-search.php:16
+msgid "Search for..."
+msgstr ""
+
+#: template-parts/empty-search.php:17
+msgid "Search button"
+msgstr ""
+
+#: template-parts/posts-tags.php:26
+msgid "Tags"
+msgstr ""
+
+#. Translators: %s review number.
+#: template-parts/rating.php:60
+msgid "%1$s of %2$s review"
+msgstr ""
+
+#. Translators: %s review number.
+#: template-parts/rating.php:60
+msgid "%1$s of %2$s reviews"
+msgstr ""
+
+#. Translators: %s rating to menu.
+#: template-parts/rating.php:66
+msgid "%s out of 5"
+msgstr ""
+
+#: template-parts/single-comment.php:35
+msgid "Reply"
+msgstr ""
+
+#: template-parts/single-post.php:73
+msgid "No comments yet"
+msgstr ""
+
+#: template-parts/single-post.php:73
+msgid "1"
+msgstr ""
+
+#: template-parts/single-post.php:73
+msgid "%"
+msgstr ""
+
+#: template-parts/single-post.php:115
+msgid "Written by"
+msgstr ""
+
+#: template-parts/single-post.php:143
+msgid "Previous post"
+msgstr ""
+
+#: template-parts/single-post.php:160
+msgid "Back to all articles"
+msgstr ""
+
+#: template-parts/single-post.php:165
+msgid "Next post"
+msgstr ""
+
+#: template-parts/trending-posts.php:16
+msgid "Trending posts"
+msgstr ""
+
+#: template-parts/wishlist/wishlist-drawer.php:8
+msgid "Your wishlist"
+msgstr ""
+
+#: template-parts/wishlist/wishlist-shortcode.php:18
+msgid "No product on your wishlist."
+msgstr ""
+
+#: template-parts/wishlist/wishlist-shortcode.php:24
+msgid "Product"
+msgstr ""
+
+#: template-parts/wishlist/wishlist-shortcode.php:26
+msgid "Price"
+msgstr ""
+
+#: template-parts/wishlist/wishlist-shortcode.php:27
+msgid "Stock status"
+msgstr ""
+
+#: template-parts/wishlist/wishlist-shortcode.php:39
+msgid "In stock"
+msgstr ""
+
+#: template-parts/wishlist/wishlist-shortcode.php:39
+msgid "Out of stock"
+msgstr ""
+
+#. Translators: %s cart items number.
+#: woocommerce/cart/mini-cart.php:26
+msgid "Your cart (%s)"
+msgstr ""
+
+#: woocommerce/order/order-details.php:48
+msgid "Product items"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:29
+msgid "Customer reviews"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:62
+msgid "Average score"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:65
+msgid "No rating for this moment"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:84
+msgid "Submit Review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Enter your fullname"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:101
+msgid "Enter your email"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:133
+msgid "Write your review..."
+msgstr ""
+
+#: woocommerce/single-product/rating.php:42
+msgid "No review yet."
+msgstr ""
+
+#: apps/post-editor/src/Components/PostContent.jsx:39
+msgid "Container layout"
+msgstr ""
+
+#: apps/post-editor/src/Components/PostTitle.jsx:29
+msgid "Display title?"
+msgstr ""
+
+#: apps/post-editor/src/main.jsx:11
+msgid "Brandy page settings"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Palette 1"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Palette 2"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Palette 3"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Palette 4"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Palette 5"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Palette 6"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Palette 7"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Palette 8"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Accent"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Link normal"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Link hover"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Body text"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Border"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Heading"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Surface background"
+msgstr ""
+
+#: theme.json
+msgctxt "Color name"
+msgid "Content background"
+msgstr ""

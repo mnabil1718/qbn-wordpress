@@ -1,0 +1,66 @@
+/** ====== Product template ====== */
+
+.brandy-product-thumbnail-group {
+  position: relative;
+  overflow: hidden;
+}
+
+.brandy-product-thumbnail-group .wc-block-components-product-button {
+  position: absolute;
+  bottom: 10px;
+  width: calc(100% - 20px);
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: hidden;
+  opacity: 0;
+  transition-property: visibility, opacity;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.brandy-site-product-template
+  > li
+  .brandy-product-thumbnail-group
+  .wc-block-components-product-image {
+  transition-property: transform, filter;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.brandy-site-product-template
+  > li
+  .brandy-product-thumbnail-group
+  .wc-block-components-product-image
+  img {
+  opacity: 1 !important;
+}
+
+.brandy-site-product-template
+  > li:hover
+  .brandy-product-thumbnail-group
+  .wc-block-components-product-image {
+  transform: scale(1.05);
+  filter: brightness(0.8);
+}
+
+.brandy-site-product-template
+  > li:hover
+  .brandy-product-thumbnail-group
+  .wc-block-components-product-button {
+  visibility: visible;
+  opacity: 1;
+}
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-product-thumbnail-group
+  .wp-block-woocommerce-product-button {
+  position: unset;
+}
+
+.block-editor-iframe__body
+  .brandy-site-product-template
+  .brandy-product-thumbnail-group
+  .wp-block-woocommerce-product-button
+  > .components-disabled {
+  position: unset;
+}
