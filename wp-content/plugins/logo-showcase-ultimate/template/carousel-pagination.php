@@ -1,1 +1,0 @@
-<div class="wpwax-lsu-carousel-pagination"></div>
